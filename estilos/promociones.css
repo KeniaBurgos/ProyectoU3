@@ -1,9 +1,9 @@
 /*---- General ----*/
 
-@import url ('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 html {
-  font-family: 'Signika Negative', Arial;
+  font-family: 'Rubik', sans-serif;
 }
 
 :root {
@@ -26,6 +26,15 @@ html {
 [class*= "col-"] {
   float: left;
   padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: solid 2px #448c4e;
+}
+
+p {
+  font-size: 18px;
 }
 
 /*---- Cabecera ----*/
@@ -101,8 +110,7 @@ li a:hover {
 /*---- Pie de Pagina ----*/
 
 .div_pie_pagina {
-  background: var(---color-contenedor);
-  color: white;
+  color: #448c4e;
   text-align: justify;
 }
 
