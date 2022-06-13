@@ -105,13 +105,23 @@ li a:hover {
   text-align: justify;
 }
 
-
+.premium, .magna {
+  webkit-box-shadow: 9px 4px 12px 9px rgba(0,0,0,0.19); 
+  box-shadow: 9px 4px 12px 9px rgba(0,0,0,0.19);
+}
 
 /*---- Pie de Pagina ----*/
 
-.div_pie_pagina {
-  color: #448c4e;
+.div_pie {
+  background: #448c4e;
+  width: 100%;
+  height: 70px; 
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
   text-align: justify;
+  webkit-box-shadow: 12px 14px 15px 9px rgba(0,0,0,0.13); 
+  box-shadow: 12px 14px 15px 9px rgba(0,0,0,0.13);
 }
 
 /* ----Responsivo PC---- */
